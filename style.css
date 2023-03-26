@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  margin: 0px;
+  border: 1px solid black;
+  padding: 1px;
+}
+
+main > div {
+  margin-top: 0px;
+}
+
+main {
+  margin: 0px;
+  padding: 1px;
+}
+
+footer {
+  margin: 0px;
+  padding: 1px;
+}
+
+div {
+  margin: 10%
+}
+/*image sizing*/
+img {
+  margin: 10% 25%;
+  width: 50%;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+/*centered all text on page*/
+h1, h2, h3, p , ul {
+  text-align: center;
+}
+/*needed to use a class to center list*/
+.list-center {
+  margin: 15px 13%
+}
+
+li {
+  text-align: left;
+}
+
+hr {
+  width: 75%;
+}
+
+ol {
+  margin: 15px 25%
+}
+
+h1, h3 {
+  font-family: didot, sans-serif;
+  color: #d4d3d9
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+main {
+  background-color: #d4d3d9;
+  border: 1px solid black
+}
+
+header {
+  background-color: #585563;
+}
+
+a:link {
+  color: purple;
+}
+a:hover {
+  color: blue
+}
+
+footer {
+  background-color: #585563;
+  border: 1px solid black
+}
+
+footer > p {
+  color: #d4d3d9
+}
+
+.height {
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+h2, p {
+  font-family: georgia, serif;
+}
